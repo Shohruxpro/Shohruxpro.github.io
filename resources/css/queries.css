@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1200px) {
+  .header__img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 8px;
+  }
+  .btn--dark {
+    margin-bottom: 4rem;
+  }
+  .form {
+    margin-left: 1.5%;
+  }
+  .form__input {
+    display: inline-block;
+    width: calc(100% / 2 - 1.5%);
+    padding: 1rem 2rem;
+    color: #2f281e;
+    font-size: 1.6rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .form__textarea {
+    width: calc(100% - 1.5%) !important;
+  }
+  .form__input:first-child {
+    margin-right: 1.5%;
+  }
+  .footer__logo {
+    width: 70%;
+  }
+  .box__img {
+    width: 7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 8px;
+  }
+
+  .row {
+    padding: 0 6%;
+  }
+  .col {
+    margin: 0 0 4% 0;
+  }
+  .col,
+  .section-about .box {
+    width: 100%;
+  }
+  .header .col,
+  .footer .col,
+  .section-design .col {
+    text-align: center;
+  }
+  .section-design {
+    padding-top: 8rem;
+  }
+  .section-design .heading-tertiary {
+    font-size: 3rem;
+  }
+  .section-design .col:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  .cards__description,
+  .title__paragraph {
+    font-size: 2rem;
+  }
+  .tag:link,
+  .tag:visited {
+    font-size: 1.5rem;
+  }
+
+  .footer .col:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  .header__description {
+    width: 100%;
+  }
+  .nav .row div {
+    margin-right: auto;
+  }
+  .main-nav,
+  .main-nav + div {
+    display: none;
+  }
+  .main-nav__link:link,
+  .main-nav__link:visited {
+    text-decoration: none;
+    display: block;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-size: 4rem;
+  }
+  .nav__icon {
+    display: inline-block;
+  }
+  .header__img {
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .about__paragraph,
+  .contact__text {
+    text-align: justify;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .section-about .box {
+    margin: 3rem 0 0 0;
+    width: 70%;
+    margin-left: 15% !important;
+  }
+  .box__photo {
+    top: 50%;
+    right: 2rem;
+  }
+  .box__img {
+    position: relative;
+  }
+  .navigation {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box__paragraph {
+    width: 80%;
+  }
+  .navigation__item:last-child div {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .navigation__btn {
+    width: 20rem;
+  }
+}
